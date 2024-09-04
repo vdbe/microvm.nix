@@ -119,7 +119,7 @@ in {
     done
   '';
 
-  supportsNotifySocket = true;
+  supportsNotifySocket = doNotify;
 
   command =
     if user != null
